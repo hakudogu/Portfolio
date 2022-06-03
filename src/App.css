@@ -1,0 +1,106 @@
+/*.App {
+  text-align: left;
+}
+*/
+/* website margin is 50 pixels*/
+.App-logo {
+  pointer-events: none;
+  position: absolute;
+  left: 50px;
+  top: 10px;
+}
+.App-middlePart {
+  background-color: #0b216bcc;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 10vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-style:normal;
+  font-family: 'better grade';
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.App-middlePart h1{
+  position:absolute;
+  left: 50px;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+     }
+    
+}
+.brand{
+  position: absolute;
+  top: 25px;
+  left: -500px;
+}
+
+.Nav-bar {
+  background-color: f7eabe;
+  background-repeat: no-repeat;
+  height: auto;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-style:normal;
+  font-family: 'mont';
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+.Nav-bar1 {
+  position: absolute;
+  right: 0px;
+  top: 10px;
+  display: table-row;
+  border-spacing: 50px;
+  font-family: 'bebas neue';
+  margin: 20px;
+}
+.Nav-bar1 li{
+  display: table-cell;
+  
+}
+
+.greeting{
+  display: table;
+  margin: 10px;
+  position: absolute;
+  left: 100px;
+  top: 300px;
+  font-family: 'mont';
+  font-size: 45px;
+}
+.greeting p{
+display: table-row;
+}
+.App-graphic1{
+  position:absolute;
+  top: 250px;
+  right: 50px;
+  width: 700px;
+}
+.App-link {
+  color: #61dafb;
+  font-style:normal;
+  font-family: 'mont';
+  font-size: calc(10px + 2vmin);
+  color: yellowgreen;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
